@@ -1,0 +1,17 @@
+command to connect aws ubuntu
+--------
+ssh -i /Users/shireesh/Downloads/devuni.pem ubuntu@34.216.116.61
+
+or ssh devops@34.216.116.61
+ password: today@1234
+
+
+git config --global user.name shireesh
+git config --global user.email shireeshaws.@gmail.com
+git config --global --list
+
+git add . //changes to be committed all file from folder
+git commit -m "first commit" ///commiting the files -m stand for message for commit
+git log //show the history of version
+
+git branch -M main //rename the branch name
